@@ -2,19 +2,11 @@
 
 ### Project Overview
 
-This repository contains the relational spatial dataset developed for the project:
+This repository contains the relational spatial dataset developed for the project: Artificial Intelligence-driven Selection of Safe CO₂ Injection Sites in Louisiana.
 
-Artificial Intelligence-driven Selection of Safe CO₂ Injection Sites in Louisiana
+Authors: Mariam Valladares-Castellanos, Sreekanta Das, Supratik Mukhopadhyaya, Thomas Douthat, Chris McLindon, Chris Alvin, Costas Varotsos.
 
-The dataset supports the study:
-
-Integrating Multi-Source Spatial Data into a Graph Framework for Carbon Storage Suitability Analysis
-
-Authors:
-Mariam Valladares-Castellanos, Sreekanta Das, Supratik Mukhopadhyaya, Thomas Douthat, Chris McLindon, Chris Alvin, Costas Varotsos
-
-Affiliation:
-Louisiana State University (LSU), Baton Rouge, Louisiana, USA
+Affiliation: Louisiana State University (LSU), Baton Rouge, Louisiana, USA.
 
 ### Purpose
 
@@ -30,8 +22,6 @@ The framework enables AI models to:
 
 The dataset integrates multiple spatial data sources across Louisiana into a unified relational structure composed of nodes and edges.
 
-#### Node-Level Features
-
 Nodes represent spatial entities relevant to CO₂ storage suitability, including geological formations and subsurface characteristics, candidate CO₂ storage locations, industrial emission sources, population density and demographic indicators, critical habitats, and environmental constraints. Each node contains attributes describing physical, environmental, or socio-economic properties used as model inputs.
 
 Edges describe relationships and interactions between nodes, such as, hydrological connectivity, transportation and pipeline proximity, spatial adjacency and distance relationships, source-to-sink connectivity. 
@@ -40,13 +30,13 @@ Edges describe relationships and interactions between nodes, such as, hydrologic
 
 The repository includes the following supplementary materials:
 
-Supplementary Material 1
+#### Supplementary Material 1
 Describes the metadata and data dictionaries for both the edge list and node attribute databases, including variable definitions, units, and data sources.
 
-Supplementary Material 2
+#### Supplementary Material 2
 Contains the Python notebooks documenting the full processing workflow used to generate the graph structure.
 
-Supplementary Material 3
+#### Supplementary Material 3
 Includes the finalized edge list and node attribute databases used for graph construction and machine learning applications.
 
 ### Citation
