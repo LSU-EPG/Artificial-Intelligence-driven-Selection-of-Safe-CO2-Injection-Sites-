@@ -1,0 +1,10 @@
+outputs/
+data/raw/
+notebooks/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
