@@ -1,4 +1,4 @@
-# Integrating Multi-Source Spatial Data into a Graph Framework for Carbon Storage Suitability Analysis
+# A Multi-Source Graph-Based Geospatial Data Resource for Future AI Applications in Carbon Storage
 
 ### Project Overview
 
@@ -10,7 +10,7 @@ Affiliation: Louisiana State University (LSU), Baton Rouge, Louisiana, USA.
 
 ### Purpose
 
-The purpose of this work is to introduce a relational, multi-source spatial dataset designed to support the development of an AI-driven framework for CO₂ geological storage site selection. Carbon storage suitability assessment requires integrating heterogeneous datasets describing geological, environmental, infrastructural, and socio-economic conditions. Traditional spatial datasets are typically stored as independent layers, limiting their ability to represent interactions among systems. This dataset addresses that limitation by organizing spatial information into a graph-structured framework suitable for machine learning applications, particularly Graph Neural Networks (GNNs).
+The purpose of this work is to introduce a relational, multi-source spatial data resource designed to support the development of future AI-driven framework for CO₂ storage site selection. Carbon storage suitability assessment requires integrating heterogeneous datasets describing geological, environmental, infrastructural, and socio-economic conditions. Traditional spatial datasets are typically stored as independent layers, limiting their ability to represent interactions among systems. This dataset addresses that limitation by organizing spatial information into a graph-structured framework suitable for future machine learning applications, particularly Graph Neural Networks (GNNs).
 The framework enables AI models to:
 
 - Learn from interconnected spatial systems rather than isolated variables
@@ -31,7 +31,7 @@ Edges describe relationships and interactions between nodes, such as, hydrologic
 The repository includes the following supplementary materials:
 
 #### Supplementary Material 1
-Describes the metadata and data dictionaries for both the edge list and node attribute databases, including variable definitions, units, and data sources.
+Describes the metadata and data dictionaries for both the edge list and node attribute databases, including variable definitions, units, and data sources. The SM1 also details the data quality control and assessment performed during the pre processing stages on the data integartion.
 
 #### Supplementary Material 2
 Contains the Python notebooks documenting the full processing workflow used to generate the graph structure.
@@ -39,8 +39,17 @@ Contains the Python notebooks documenting the full processing workflow used to g
 #### Supplementary Material 3
 Includes the finalized edge list and node attribute databases used for graph construction and machine learning applications.
 
+#### Supplementary Material 4
+Includes the 37 data layers (vectors and rasters) integrated in the study.
+
+#### Supplementary Material 5
+Details the data inputs and outputs descriptive statistics and summaries.
+
+#### Supplementary Material 6
+Represents an example of a sensitivity analysis conducted to evaluate the influence of selected data construction thresholds.
+
 ### Citation
 
-Valladares-Castellanos, M., Das, S., Mukhopadhyaya, S., Douthat, T., McLindon, C., Alvin, C., & Varotsos, C. (Year). Integrating Multi-Source Spatial Data into a Graph Framework for Carbon Storage Suitability Analysis. Louisiana State University (Submitted).
+Valladares-Castellanos, M., Das, S., Mukhopadhyaya, S., Douthat, T., McLindon, C., Alvin, C., & Varotsos, C. (Year). Integrating Multi-Source Spatial Data into a Graph Framework for Carbon Storage Suitability Analysis. Louisiana State University (In review).
 
 
